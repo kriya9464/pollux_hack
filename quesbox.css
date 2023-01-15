@@ -1,0 +1,158 @@
+.quesbox{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    border:1px solid lightgray;
+    background-color: hsla(0, 0%, 100%, 0.438);
+    border-radius: 5px;
+    cursor: pointer;
+    max-width:900px;
+    position:sticky;
+}
+
+.quesbox:hover{
+    border: 1px solid grey;
+    background-color: hsla(0, 0%, 100%, 0.699);
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.quesasker{
+    /* padding-left: 4rem; */
+    margin:auto;
+}
+
+.ques_btn{
+    margin:auto;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+.ques_btn > Button{
+    color:white;
+}
+
+.describecategory{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+  
+}
+
+.describecategory > p{
+  padding-left: 10px;
+  padding-right: 10px;
+  border:5px black;
+  border-radius: 5px solid black;
+}
+
+
+.modal_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+  }
+  
+  .modal_title > h5 {
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+  }
+  
+  .modal_title > h5:hover {
+    color: #b92b27;
+  }
+  
+  .modal_info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .modal_info > p {
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
+  }
+  
+  .modal_info > .modal_describecategory {
+    display: flex;
+    align-items: center;
+    color: rgb(98, 98, 98);
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 33px;
+    cursor: pointer;
+  }
+  
+  .modal_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex: 1;
+  }
+  
+  .modal_content > .modal__fieldLink {
+    color: gray;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .modal_content > .modal__fieldLink > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+  }
+  
+  .modal_btn {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .modal_btn > .cancel {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+  }
+  
+  .modal_btn > .cancel:hover {
+    color: red;
+  }
+  
+  .modal_btn > .add {
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    background-color: #222;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  .modal_btn > .add:hover {
+    background-color: #eee;
+    color: #222;
+  }
+  
+  
